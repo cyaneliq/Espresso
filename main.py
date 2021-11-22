@@ -34,7 +34,6 @@ class MyWidget(QMainWindow):
                         self.tableWidget.setItem(i, z, QTableWidgetItem(("Молотый")))
 
 
-
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     ex = MyWidget()
